@@ -1,0 +1,7 @@
+id: 658
+title: Introduction à R
+author_field: Virgile Baudrot
+description: Une introduction à R
+chapters:
+- chapter1.Rmd: 1513
+

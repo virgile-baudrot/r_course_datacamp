@@ -1,0 +1,172 @@
+---
+title_meta  : Chapter 1
+title       : Chapitre d'introduction à R
+description : Ce premier chapitre est une introduction à R accessible à un débutant complet.
+mode        : standalone
+
+---
+## Premier exercice
+
+L'objectif de ce premier exercice et de voir comment [datacamp](https://www.datacamp.com) fonctionne. Il y a l'**editor** où le code sera tapé. La **console** en bas à droite où le code sera envoyé pour être interprété, et les graphiques - **graphs** - apparaitrons en haut à droites.
+
+Nous allons commencer simplement, avec des opérations mathématiques de base (*addition*, *soustraction*, *division* et *multiplication*), des assignements de valeurs et des commentaires en utilisant le `#` pour expliquer ce que fait le code.
+
+*** =instructions
+  - Faites les calculs suivants: `3+5`, 
+  - `7-14`, 
+  - `12*2` et,
+  - `7/3`.
+
+*** =hint
+
+Ecrivez ces codes dans l'**editor** sur votre droite et cliquez sur **submit answer**. Le code sera envoyé dans la **console** pour être interprété et vérifié.
+
+*** =solution
+
+```{r,eval=FALSE}
+# Ceci est un commentaire, il ne sera pas interprété
+# Entrez ci-dessous la premiere operation 3+5
+3+5
+# puis 7-14
+7-14
+# puis 12*2
+12*2
+# et enfin 7/3
+7/3
+```
+
+*** =sample_code
+
+```{r,eval=FALSE}
+# Ceci est un commentaire, il ne sera pas interprété
+# Entrez ci-dessous la premiere operation 3+5
+
+# puis 7-14
+
+# puis 12*2
+
+# et enfin 7/3
+
+```
+
+*** =sct
+
+```{r,eval=FALSE}
+# The Submission Correctness Test code
+# It takes as input the students workspace, his code and what was printed to the console during the exercise.
+# Based on these inputs the SCT returns:
+# (i) whether the students code was correct
+# (ii) a message to the student to either help him find what was wrong or congragulate him on finding the solution.
+DM.result = list(TRUE,"Well done!")
+```
+
+*** =pre_exercise_code
+
+```{r,eval=FALSE}
+# Pre-exercise code is executed before the exercise starts (what's in a name...)
+# It can be used to:
+# Pre-load a dataset
+# Render graphs that are shown at the start of the exercise
+# ...
+```
+
+
+--- type:MultipleChoiceExercise
+## This is a multiple choice exercise!
+
+Assigment here.
+
+*** =instructions
+
+- Option 1
+- Option 2
+- ...
+  
+*** =hint
+
+Hint here. 
+
+*** =pre_exercise_code
+
+```{r,eval=FALSE}
+# Pre-exercise code here
+```
+
+*** =solution
+
+```{r,eval=FALSE}
+# Solution code here 
+```
+
+*** =sample_code
+
+```{r,eval=FALSE}
+# Sample code here
+```
+
+*** =sct
+
+```{r,eval=FALSE}
+# Submission Correctness Test here
+if (DM.result == 1) {
+  DM.result = list(TRUE,"Well done!")
+} else {
+  DM.result = list(FALSE,"Wrong!")
+}
+```
+
+--- type:MultipleChoiceExercise contains_graph:TRUE
+## This multiple choice exercise contains a graph!
+
+Assigment here.
+
+*** =instructions
+
+- Option 1
+- Option 2
+- ...
+  
+*** =hint
+
+Hint here. 
+
+*** =pre_exercise_code
+
+```{r,eval=FALSE}
+# Draw graph here
+hist(rnorm(1000))
+```
+
+*** =solution
+
+```{r,eval=FALSE}
+# Solution code here 
+```
+
+*** =sample_code
+
+```{r,eval=FALSE}
+# Sample code here
+```
+
+*** =sct
+
+```{r,eval=FALSE}
+# Submission Correctness Test here
+if (DM.result == 1) {
+  DM.result = list(TRUE,"Well done!")
+} else {
+  DM.result = list(FALSE,"Wrong!")
+}
+```
+
+--- type:VideoExercise
+## This exercise contains a video!
+
+If necessary, you can add a description here.
+
+*** =video_link
+
+```{r,eval=FALSE}
+//player.vimeo.com/video/97249290
+```
